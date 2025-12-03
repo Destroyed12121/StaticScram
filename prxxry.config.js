@@ -1,14 +1,15 @@
 // Dynamic WISP URL Configuration
-// Default WISP URL: wss://wisp.rhw.one/wisp/
-// This can be changed via the settings UI which updates localStorage 'proxServer' key
-
 const basePath = '/Staticsj/';
 
+// Match the default in script.js
+const DEFAULT_WISP = "wss://dash.goip.de/wisp/"; 
+
 let _CONFIG = {
-  wispurl: localStorage.getItem("proxServer") || "wss://wisp.rhw.one/wisp/", // fallback to default WISP URL if proxServer not set
-  bareurl: undefined // remove default value, rely on runtime construction
+  wispurl: localStorage.getItem("proxServer") || DEFAULT_WISP,
+  bareurl: undefined 
 };
 
+// ... keep the rest of the file logic as is, just ensure the default above matches ...
 // Verify default WISP URL passes validation
 console.assert(isValidWispUrl("wss://wisp.rhw.one/wisp/"), "Default WISP URL should pass validation");
 
