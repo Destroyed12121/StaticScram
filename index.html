@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Browser123</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <script src="https://cdn.jsdelivr.net/gh/Destroyed12121/Staticsj@main/JS/scramjet.all.js" defer></script>
+    <script type="module">
+        import * as BareMux from "https://cdn.jsdelivr.net/npm/@mercuryworkshop/bare-mux/dist/index.mjs";
+        window.BareMux = BareMux;
+    </script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div id="app"></div>
+
+    <!-- WISP Settings Modal -->
+    <div class="wisp-settings-modal hidden" id="wisp-settings-modal">
+        <div class="modal-container">
+            <div class="modal-header">
+                <h3>WISP Settings</h3>
+                <button class="modal-close-btn" id="close-wisp-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="wisp-section">
+                    <h4>Current WISP</h4>
+                    <code class="wisp-url-display" id="current-wisp-url"></code>
+                </div>
+                <div class="wisp-section">
+                    <h4>Predefined Servers</h4>
+                    <div class="predefined-wisps">
+                        <button class="wisp-option-btn" data-url="wss://gointospace.app/wisp/">Default
+                            (gointospace.app)</button>
+                        <button class="wisp-option-btn" data-url="wss://register.goip.it/wisp/">Space's Wisp</button>
+                        <button class="wisp-option-btn" data-url="wss://dash.goip.de/wisp/">DaydreamX's Wisp</button>
+                        <button class="wisp-option-btn" data-url="wss://wisp.rhw.one/wisp/">Rhw's Wisp</button>
+                    </div>
+                </div>
+                <div class="wisp-section">
+                    <h4>Custom URL</h4>
+                    <div class="custom-wisp-input">
+                        <input type="url" id="custom-wisp-url" placeholder="wss://..." class="wisp-url-input">
+                        <button id="save-custom-wisp-btn" class="btn btn-primary">Save</button>
+                    </div>
+                </div>
+                <div class="wisp-status" id="wisp-status-text">Ready</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+window.QUOTES = [
+      "“Code is like humor. When you have to explain it, it’s bad.”",
+      "“Programs must be written for people to read.”",
+      "“Dark mode saves eyes, trust the process.”",
+      "“When in doubt, console.log it.”",
+      "“It's not a bug, it's an undocumented feature.”",
+      "“Have you tried turning it off and on again?”",
+
+      "“The only way to do great work is to love what you do.”",
+      "“The journey of a thousand miles begins with a single step.”",
+      "“Strive not to be a success, but rather to be of value.”",
+      "“Believe you can and you're halfway there.”",
+      "“The future belongs to those who believe in the beauty of their dreams.”",
+      "“The best time to plant a tree was 20 years ago. The second best time is now.”",
+      "“You must be the change you wish to see in the world.”",
+      "“In three words I can sum up everything I've learned about life: it goes on.”",
+      "“The only thing we have to fear is fear itself.”",
+      "“To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.”",
+
+      "“The mind is everything. What you think you become.”",
+      "“The greatest glory in living lies not in never falling, but in rising every time we fall.”",
+      "“Life is what happens when you're busy making other plans.”",
+      "“That which does not kill us makes us stronger.”",
+      "“The only true wisdom is in knowing you know nothing.”",
+      "“It does not matter how slowly you go as long as you do not stop.”",
+      "“Everything you can imagine is real.”",
+      "“Success is not final, failure is not fatal: it is the courage to continue that counts.”",
+      "“Dream big and dare to fail.”",
+      "“Act as if what you do makes a difference. It does.”",
+      "“The only impossible journey is the one you never begin.”"
+];
