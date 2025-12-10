@@ -1,1 +1,0 @@
-A static scramjet implementation similar to /staticsj but now uses jsdelivr cdn's to significantly reduce the size of the codebase.
